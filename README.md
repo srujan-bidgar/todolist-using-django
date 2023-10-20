@@ -32,8 +32,8 @@ Constructing a web application using Django
 
 ![Screenshot 2023-10-20 230754](https://github.com/srujan-bidgar/todolist-using-django/assets/139164617/338f48dd-5eed-4248-8923-d6a30a68debe)
 
-# Challenges
-- [x] Making sure current functionality doesn't break while adding new features
-(solution : testing and different testcases in the following push commands)
-- [x] Avoiding repeated code (solution : analyse and create a single function for common feature)
-- [x] Working on time complexity for put function ( O(n) to O(log n) )
+# Challenges faced and their solutions
+- [x] Implementing secure user registration and authentication
+(solution :  Utilizing Django's built-in authentication system. Implementing user registration, login, and password reset views and templates. Configuring proper security settings to protect against common vulnerabilities.)
+- [x] Designing a robust data model to represent tasks, categories, and user profiles. (solution : Using Django's Object-Relational Mapping (ORM) to define models and relationships)
+- [x]  Ensuring data input validation and protecting the app against security threats ( Protection against Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and other vulnerabilities by following best practices and using Django's built-in security features. )
